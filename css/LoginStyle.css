@@ -1,0 +1,60 @@
+﻿@font-face
+{
+    font-family: "Orbi";    
+    src: url(fonts/orbitron.ttf) format("truetype");
+}
+
+.logPanel
+{
+    //font-family: "Orbi", Verdana;
+    width: 400px;
+    height: 300px;
+    border-style: none;    
+    margin: 30px 20px;    
+    padding: 10px 40px;    
+}
+
+.imagePanel
+{
+    width: 316px;
+    height: 261px;
+    border-style: none;     
+    background-image: url("../images/key.png");
+    margin-right: 60px; 
+    margin-top: 80px;
+    float: right;
+}
+
+.logPanel h1
+{
+    font-weight: normal;
+    font-family: "Orbi", Verdana;
+    font-size: 50px;
+    color: Green;    
+}
+
+.logBoxes
+{
+    border-radius: 5px;
+    text-indent: 10px;
+    border-style: solid;
+    border-color: #93ca24;
+    color: #93ca24;
+}
+
+.logText
+{
+    margin-left: 20px;
+    font-size: 20px;
+    color: #61841b;
+}
+
+ .style4
+{
+    width: 285px;
+}
+        
+.style5
+{
+    width: 300px;
+}

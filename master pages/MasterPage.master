@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head runat="server">    
+    <title></title>        
+    <link href="~/css/style.css" rel="stylesheet" type="text/css" />    
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="container">
+        <div class="header">
+            <a href="#">
+            <img src="./images/header.jpg" alt="University of Sumanadasa" 
+                height="100" id="header_logo" 
+                style="background: #C6D580; display:block;" width="960" /></a>
+        </div>
+
+        <div class="menubar">
+            <div class="login">
+                <asp:Label ID="logText" runat="server" Text="Logged as "></asp:Label> 
+                <asp:LinkButton ID="logName" runat="server" Font-Bold="True" 
+                    ForeColor="#3333CC" onclick="logName_Click"></asp:LinkButton>                 
+                <asp:Button ID="logOutBtn" runat="server" Text="Log Out" 
+                    onclick="logOutBtn_Click" />               
+            </div>
+            <asp:Button ID="backBtn" runat="server" Font-Bold="True" Height="30px" 
+                Text="&lt;&lt; back" Width="80px" onclick="backBtn_Click" />            
+            
+            <asp:Button ID="homeBtn" runat="server" Height="30px" onclick="homeBtn_Click" 
+                Text="HOME" Width="80px" Font-Bold="True" Font-Size="Large" />
+            
+        </div>
+        
+        <div class ="sidebar">
+            <asp:ContentPlaceHolder ID="sidebar" runat="server">            
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <div class="content">
+            <asp:ContentPlaceHolder ID="content" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <div class="footer">
+        </div>
+    </div>    
+    </form>
+</body>
+</html>

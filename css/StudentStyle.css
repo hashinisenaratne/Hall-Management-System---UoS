@@ -1,0 +1,79 @@
+﻿.container {		
+	background: #d3ff7a;		
+}
+
+.content{
+    width: 730px;    
+    background-color: #fff;
+    margin-right: 10px;
+    background-position: right top;
+}
+
+.image
+{
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px #7eb31a;    
+}
+
+h1
+{
+    //font-family: "Orbi",Arial;
+    color: Green;
+}
+
+.labels{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.style1
+{
+    color: Green;
+    font-size: 18px;
+    width: 243px;
+}
+
+.style2
+{
+    width: 230px;
+    text-align: left;
+    font-size: 18px;
+    color: Green;
+}
+
+.style3
+{
+    text-align: left;
+    font-weight: normal;
+    font-size: 18px;
+    color: #333399;
+}
+
+.style4
+{
+    width: 255px;
+    text-align: left;
+    font-size: 18px;
+    color: Green;
+}
+
+.viewPanel
+{
+    margin-left: 40px;
+    padding: 10px 40px;    
+    background: #d3ff7a;
+    color: #444;
+    width: 500px;
+    //width:100%;
+    border-radius: 10px;
+    border-color: #fff;
+    border-width: 2px;
+    border-style: dashed;       
+}
+
+.viewPanel h3
+{
+    font-family: "Orbi",Arial;
+    font-size: 24px;
+    color: Green;
+}

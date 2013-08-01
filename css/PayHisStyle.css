@@ -1,0 +1,26 @@
+﻿.content h1
+{
+    //font-family: "Orbi",Arial;
+    color: Green;
+}
+
+.grid
+{
+    text-align: center;
+    font-size: 18px;
+    color: Green; 
+    width: 920px;
+    margin: 20px 20px;       
+}
+
+.gridHeader
+{
+    font-size: 20px;          
+}
+
+.gridPager
+{
+    font-size: 14px;
+    border-style:none;
+    text-align: center;
+}

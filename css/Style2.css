@@ -1,0 +1,146 @@
+﻿@charset "utf-8";
+
+@font-face  
+{
+    font-family: "Monda";    
+    src: url(fonts/monda.ttf) format("truetype");
+}
+
+@font-face
+{
+    font-family: "Orbi";    
+    src: url(fonts/orbitron.ttf) format("truetype");
+}
+
+body 
+{
+    font-family: sans-serif;	
+	background: #aaa;	
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+input[type='submit'] 
+{	 	
+	color: white;
+	text-decoration: none;	 
+	font-family: helvetica, arial;
+	font-weight: normal;	 
+	text-align: center;
+	 	 
+	background: #014464;
+	background: -moz-linear-gradient(top, #0D658E, #0C577A 50%, #014D71 51%, #003E5C);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0E658E), color-stop(.5, #0C577A), color-stop(.5, #014D71), to(#003E5C)); 
+	 
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #368DBE;
+	border-top: 1px solid #c3d6df;
+	text-shadow: 1px 1px 1px black;
+	-moz-box-shadow: 0 1px 3px black;
+	-webkit-box-shadow: 0 1px 3px black;
+	box-shadow: 0 1px 3px black;
+}
+		
+input[type='submit']:hover 
+{
+	cursor: pointer; cursor: hand;
+	background: #014464;
+	background: -moz-linear-gradient(top, #0a4b68, #08384e 50%, #012d42 51%, #001d2b);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0a4b68), color-stop(.5, #08384e), color-stop(.51, #012d42), to(#001d2b));
+}
+		
+.container {
+	width: 960px;	
+	background: #FFF;
+	margin: 10px auto;	
+}
+
+.header {
+	background: #c0cd7b;	
+	box-shadow: 0px 2px 5px #555;
+	position:relative;
+	z-index: 2;
+}
+
+.menubar {	
+	height: 40px;
+	background: #7eb31a;
+	box-shadow: 0px 2px 5px #555;	
+	position: relative;/* this gives IE6 hasLayout to properly clear */
+	clear: both; /* this clear property forces the .container to understand where the columns end and contain them */
+	z-index: 1;
+}
+
+.login {
+    width: 400px;
+    height: 20px; 
+    margin-top:7px;   
+    float:right;        
+}
+
+.content {
+	padding: 10px 0;
+	width: 960px;
+	float: right;	
+}
+
+.content p{
+    font-weight: bold;    
+}
+
+.content h1,p{
+    padding-left: 25px;
+}
+
+.content h1
+{
+    color: Green;
+    width: 435px;
+}
+
+.labels{
+    font-weight: normal;
+}
+
+.content ul, .content ol { 
+	padding: 0 15px 15px 40px; /* this padding mirrors the right padding in the headings and paragraph rule above. Padding was placed on the bottom for space between other elements on the lists and on the left to create the indention. These may be adjusted as you wish. */
+}
+
+.menubar input
+{     
+    margin: 5px 20px; 
+    background: #7eb31a;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0px 0px black; 
+    text-shadow: 0px 0px 0px #000;      
+}
+
+.menubar input:hover
+{     
+     -moz-box-shadow: 0 0px 10px black;
+	 -webkit-box-shadow: 0 0px 10px black;
+	 box-shadow: 0px 0px 10px black;     
+}
+
+.login input
+{     
+    margin-left: 10px; 
+    background: #b3281a;    
+    border-radius: 3px;          
+}
+
+.footer {	
+	height: 20px;
+	background: #115c00;
+	position: relative;/* this gives IE6 hasLayout to properly clear */
+	clear: both; /* this clear property forces the .container to understand where the columns end and contain them */
+}
+
+
+
+	
